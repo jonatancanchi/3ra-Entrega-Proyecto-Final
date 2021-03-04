@@ -1,0 +1,96 @@
+#cargando {
+    display: none;
+}
+/*----MENU DE NAVEGACION----*/
+.navbar
+{
+    display: flex;
+    cursor: pointer;
+    height: 85px;
+    border-bottom: 0.5px solid #343533;
+}
+.navbar
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-colapse
+{
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+/*---------BOTON FLOTANTE WHATSAPP--------*/
+.float
+{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:30px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+.my-float
+{
+	margin-top:16px;
+}
+
+/*-----------FOOTER-------------------------*/
+footer
+{
+    background: #ccc;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #9e9797 ;
+}
+
+.content-footer{
+    text-align: center;
+}
+
+.content-footer h4{
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-footer a{
+    color: black;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
